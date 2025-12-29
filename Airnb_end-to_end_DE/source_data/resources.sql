@@ -13,6 +13,6 @@ URL='your_s3_bucket_path';
 COPY INTO <your_table_name>
 FRoM @snowstage
 FILES=('your_file_name.csv')
-CREDENTIALS=(aws_key_id = 'yourkey', aws_secret_key = 'yoursecretkey1');
+CREDENTIALS=(aws_key_id = 'yourkey', aws_secret_key = 'yoursecretkey1111');
 
 
