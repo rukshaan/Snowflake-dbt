@@ -1,0 +1,13 @@
+dbt_snowflake:
+  outputs:
+    dev:
+      account: BLJAPTM-II43143
+      database: AIRBNB
+      password: NewStrongPassword1
+      role:
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: rukshan
+      warehouse: COMPUTE_WH
+  target: dev

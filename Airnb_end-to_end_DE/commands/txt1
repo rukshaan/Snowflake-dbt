@@ -16,3 +16,5 @@ uv add dbt-core
 
 //install an adapter
 uv add dbt-snowflake
+
+dbt init
