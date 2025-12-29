@@ -1,0 +1,18 @@
+pip install uv
+
+//create a virtual environment
+python -m venv .venv
+or 
+uv init
+
+//create virtual enviroment file also
+uv sync
+
+//activate the virtual enviroment
+.venv/Scripts/activate
+
+// add dbt-core
+uv add dbt-core
+
+//install an adapter
+uv add dbt-snowflake
